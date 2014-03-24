@@ -314,15 +314,65 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
 }
 
 .tab-content-item{
-	
-	height: 150px;
-
+	height: 170px;
 width: 200px;
 }
 
-
+.tab-content-item:hover{
+	opacity: 0.8;
+}
 
 .tab-content-inner{
 	height: 100%;
-	background: #c90;
+}
+
+.pr-block-img-link{
+	height: 100px;
+	display: block;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.pr-block-img-link img{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	margin: auto;
+	max-height: 100%;
+}
+
+.pr-block-product-title{
+	height: 40px;
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+}
+
+.pr-block-product-title-link{
+	font-size: 14px;
+}
+
+.pr-block-new-price{
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.pr-block-old-price{
+	text-decoration: line-through;
+	font-size: 14px;
+}
+
+.tabs-content > .content{
+	display: block;
+	visibility: hidden;
+	height: 0;
+	padding: 0;
+}
+
+.tabs-content > .content.active{
+	visibility: visible;
+	height: auto;
 }
