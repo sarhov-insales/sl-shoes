@@ -378,9 +378,9 @@ width: 200px;
 }
 
 .carousel_buttons {
-    background: url('sprite.png') 0 -155px  no-repeat;
+    background: url('sprite.png') 0 -154px  no-repeat;
     height: 20px;
-    left: -80px;
+    left: -20px;
     margin-top: -10px;
     position: absolute;
     top: 50%;
@@ -398,8 +398,21 @@ width: 200px;
 
 .carousel_buttons[id$="next"]{
 	left: auto;
-	right: -80px;
+	right: -20px;
 	background-position: 0 -121px;
+}
+
+@media only screen and (max-width: 1270px) {
+	.carousel_buttons[id$="next"]{
+	left: auto;
+	right: 5%;
+}
+
+.carousel_buttons{
+	left: auto;
+	right: 8%;
+	top: -20px;
+}
 }
 
 .counter-wrap{
@@ -438,7 +451,7 @@ text-transform: uppercase;
 }
 
 #countdown_dashboard i {display: block;float: left;font-family: tahoma;font-size: 18px;margin-left: 10px;margin-top: 12px;width: 220px;}
-#countdown_dashboard{background:url(countdown3.png) no-repeat 0 0 transparent; width:700px; height:52px;}
+#countdown_dashboard{background:url(countdown3.png) no-repeat 0 0 transparent; width:100%; height:52px;}
 .dash, .digit{float:left;}
 .dash{width:101px}
 .digit{margin-right:8px;}

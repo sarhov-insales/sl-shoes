@@ -658,7 +658,7 @@
 </section>
 
 <section class="counter-wrap">
-  <div class="row">
+
     <div class="row  counter-inner">
       <div class="columns medium-13 counter-part">
         <h6 class="counter-title">
@@ -690,7 +690,7 @@
 
 
           <script type="text/javascript" language="javascript">
-         
+         $(document).ready(function($) {
             $('#countdown_dashboard').countDown({
               targetDate: {
                 'day': 01,
@@ -702,7 +702,7 @@
               },
               omitWeeks: true
             });
-       
+   });
           </script>
         </div>
         <div class="row buy-part">
@@ -727,14 +727,17 @@
         </a>
       </div>
     </div>
-  </div>
+
   <!-- counter-inner -->
 </section>
 <!-- counter-wrap -->
 
 <script src="js/foundation.min.js"></script>
 <script>
+  
+
 $(document).foundation();
+
 </script>
 </body>
 
