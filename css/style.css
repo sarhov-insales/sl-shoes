@@ -263,7 +263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
 }
 
 .categories-content-wrap{
-	padding: 50px 0;
+	padding: 70px 0;
 	background: #fcfcfc;
 	margin-bottom: 100px;
 	border-top: 1px solid #CCCCCC;
@@ -370,9 +370,36 @@ width: 200px;
 	visibility: hidden;
 	height: 0;
 	padding: 0;
+	position: relative;
 }
 
 .tabs-content > .content.active{
 	visibility: visible;
 	height: auto;
+}
+
+.carousel_buttons {
+    background: url('sprite.png') 0 -155px  no-repeat;
+    height: 20px;
+    left: -80px;
+    margin-top: -10px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    text-indent: -9999px;
+}
+
+.tabs-content{
+	margin-bottom: 0;
+}
+
+.carousel_buttons:hover{
+	opacity: 0.8;
+}
+
+
+.carousel_buttons[id$="next"]{
+	left: auto;
+	right: -80px;
+	background-position: 0 -121px;
 }
