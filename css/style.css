@@ -26,6 +26,27 @@ figure{
     box-shadow: 0 0 1px #333333;
 }
 
+.input-text{
+	color: #c7c7c7;
+	font-size: 14px;
+	padding:11px 10px;
+	background: #fff;
+	width: 100%;
+	-webkit-box-shadow: inset 0 0 3px #ccc;
+	-moz-box-shadow: inset 0 0 3px #ccc;
+	box-shadow: inset 0 0 3px #ccc;
+	border: none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.input-text:focus{
+	-webkit-box-shadow: inset 0 0 3px #444;
+	-moz-box-shadow: inset 0 0 3px #444;
+	box-shadow: inset 0 0 3px #444;
+}
+
 .header-wrap {
   width: 100%;
   height: 100px;
@@ -273,8 +294,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
 	padding: 70px 0;
 	background:
 	url('carousel-bg.png') center 0 repeat-x, 
-	url('carousel-bg2.png') center 100% repeat-x, 
-	#fcfcfc;
+	url('carousel-bg2.png') center 100% no-repeat, 
+	#FEFEFE;
 
 }
 
@@ -519,3 +540,46 @@ height: 47px;}
 	line-height: 1.5;
 	font-weight: 300;
 }
+
+.subscribe-wrap{
+	padding: 35px 0;
+	background: url('subscribe-bg.png')center 0 no-repeat #f9f9f9;
+}
+
+.subscribe-text-title{
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;;
+}
+
+.subscribe-text-subtitle{
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.subscribe-input-text{
+	padding-right: 30px;
+}
+
+.subscribe-input-wrap{
+	position: relative;
+}
+
+.subscribe-input-wrap:before{
+content:'';
+width: 20px;
+height: 20px;
+float: right;
+overflow: hidden;
+display: block;
+background: url('sprite.png') 0 -121px no-repeat;
+position: absolute;
+right: 22px;
+top: 10px;
+}
+
+.main-foot-wrap{
+	padding: 90px 0;
+	background:url('foot-bg.png')center 0 no-repeat #ececec;
+}
+
