@@ -448,21 +448,30 @@ width: 200px;
 font-size: 35px;
 font-weight: bold;
 text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.counter-itself{
+	margin-bottom: 35px;
 }
 
 #countdown_dashboard i {display: block;float: left;font-family: tahoma;font-size: 18px;margin-left: 10px;margin-top: 12px;width: 220px;}
-#countdown_dashboard{background:url(countdown3.png) no-repeat 0 0 transparent; width:100%; height:52px;}
+#countdown_dashboard{ width:100%; height:92px;}
 .dash, .digit{float:left;}
-.dash{width:101px}
-.digit{margin-right:8px;}
+.dash{width:140px; height:91px; background:url("sprite.png") no-repeat scroll -10px -542px rgba(0, 0, 0, 0);margin-right: 40px;}
+
 .dash_title {display: inline-block;font-family: tahoma;font-size: 17px;font-style: italic;margin-top: 12px;width: 35px;}
 .days_dash{margin-left:15px;}
+.digit {
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+}
 .digit .top, .digit .bottom{color: #FFFFFF;
-font-size: 36px;
-line-height: 1.3;
-height: 33px;}
-.hours_dash{width:114px}
-.minutes_dash{width:117px}
+font-size: 50px;
+font-weight: 300;
+height: 47px;}
+
 
 .countdown_dashboard i {display: block;float: left;font-family: tahoma;font-size: 18px;margin-left: 10px;margin-top: 12px;width: 220px;}
-.countdown_dashboard{background:url(countdown3.png) no-repeat 0 0 transparent; width:700px; height:52px;}
+
