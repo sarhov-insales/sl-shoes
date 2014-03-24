@@ -414,6 +414,7 @@ width: 200px;
 
 .counter-wrap{
 	padding: 70px 0;
+	background: #fff;
 }
 
 .counter-part{
@@ -438,6 +439,7 @@ width: 200px;
 	bottom: 0;
 	top: 0;
 	margin: auto;
+	max-height: 100%;
 }
 
 .counter-title{
@@ -496,3 +498,24 @@ height: 47px;}
 
 .countdown_dashboard i {display: block;float: left;font-family: tahoma;font-size: 18px;margin-left: 10px;margin-top: 12px;width: 220px;}
 
+.news-wrap{
+	padding: 60px 0;
+	background:url('news-bg.png') center 0 no-repeat #fff;
+}
+
+.news-title{
+	margin-bottom: 15px;
+}
+
+.news-title-link{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 33px;
+}
+
+.news-excerpt{
+	font-size: 14px;
+	margin-bottom: 20px;
+	line-height: 1.4;
+	font-weight: 300;
+}
