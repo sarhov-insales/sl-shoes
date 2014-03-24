@@ -196,43 +196,54 @@
   <div class="row categories-content">
     <div class="tabs-content">
       <div class="content clearfix active" id="cat1">
-        <article class="columns medium-6 tab-content-item">
-          <div class="tab-content-inner">
+        <div class="carousel1">
+          <article class="columns left tab-content-item" >
+            <div class="tab-content-inner">
 
-          </div>
-        </article>
-        <article class="columns medium-6 tab-content-item">
-          <div class="tab-content-inner">
+            </div>
+          </article>
+          <article class="columns left tab-content-item" >
+            <div class="tab-content-inner">
 
-          </div>
-        </article>
-        <article class="columns medium-6 tab-content-item">
-          <div class="tab-content-inner">
+            </div>
+          </article>
+          <article class="columns left tab-content-item" >
+            <div class="tab-content-inner">
 
-          </div>
-        </article>
-        <article class="columns medium-6 tab-content-item">
-          <div class="tab-content-inner">
+            </div>
+          </article>
+          <article class="columns left tab-content-item" >
+            <div class="tab-content-inner">
 
-          </div>
-        </article>
-        <article class="columns medium-6 tab-content-item">
-          <div class="tab-content-inner">
+            </div>
+          </article>
+          <article class="columns left tab-content-item" >
+            <div class="tab-content-inner">
 
-          </div>
-        </article>
-        <article class="columns medium-6 tab-content-item">
-          <div class="tab-content-inner">
+            </div>
+          </article>
+          <article class="columns left tab-content-item" >
+            <div class="tab-content-inner">
 
-          </div>
-        </article>
+            </div>
+          </article>
       </div>
-      <a href="#" id="cat1-prev" class="carousel_buttons">Назад</a>
+       <a href="#" id="cat1-prev" class="carousel_buttons">Назад</a>
       <a href="#" id="cat1-next" class="carousel_buttons">Вперед</a>
+      </div>
+     
       <script>
-      $("#cat1").carouFredSel({
-        circular: false,
-        infinite: false,
+             $(".carousel1").carouFredSel({
+  responsive  : true,
+  items   : {
+    width   : 330,
+    visible   : {
+      min     : 2,
+      max     : 4
+    }
+  },
+        circular: true,
+        infinite: true,
         auto: false,
         prev: {
           button: "#cat1-prev",

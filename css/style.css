@@ -248,6 +248,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
 	text-transform: uppercase;
 }
 
+.categories-tabs-tab-title{
+	font-weight: bold;
+	font-size: 23px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #333;
+}
+
+.categories-tabs-tab-description{
+	font-size: 14px;
+	text-transform: capitalize;
+	text-align: center;
+}
+
 .categories-content-wrap{
 	padding: 50px 0;
 	background: #fcfcfc;
@@ -300,8 +314,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
 }
 
 .tab-content-item{
-	height: 30px;
-width: 300px;
+	height: 130px;
+width: 200px;
 }
 
 .tab-content-inner{
