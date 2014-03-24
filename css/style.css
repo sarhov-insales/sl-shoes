@@ -314,11 +314,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
 }
 
 .tab-content-item{
-	height: 130px;
+	
+	height: 150px;
+
 width: 200px;
 }
 
+
+
 .tab-content-inner{
 	height: 100%;
-	background: #9c0;
+	background: #c90;
 }
