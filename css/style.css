@@ -298,3 +298,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f9', end
     margin-left: -30px;
     position: absolute;
 }
+
+.tab-content-item{
+	height: 30px;
+width: 300px;
+}
+
+.tab-content-inner{
+	height: 100%;
+	background: #9c0;
+}

@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="ru">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,9 +9,12 @@
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.15.0/build/cssreset/cssreset-min.css">
   <link rel="stylesheet" href="css/style.css" />
   <link href='http://fonts.googleapis.com/css?family=Comfortaa:400,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script src="js/vendor/modernizr.js"></script>
+  <script src="js/carousel.js"></script>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
   <header class="header-wrap">
     <div class="row header">
@@ -54,11 +58,11 @@
               </li>
             </ul>
           </div>
-          <div  class="columns medium-3 search-wrap">
-            
+          <div class="columns medium-3 search-wrap">
+
           </div>
           <div class="columns medium-9 login-wrap">
-              
+
             <div class="cart-wrap right">
               <a href="/cart_items" class="cart-link">
                 <span class="cart-text">Корзина</span>
@@ -66,7 +70,7 @@
               </a>
             </div>
             <div class="login right ">
-                <a href="" class="login-link">Вход</a>
+              <a href="" class="login-link">Вход</a>
             </div>
           </div>
         </div>
@@ -81,56 +85,56 @@
   <section class="slider-wrap">
     <div class="row slider">
       <div class="columns large-24">
-      <ul class="slider-inner" data-orbit> 
-        <li data-orbit-slide="slide1" class="the-slide"> 
-          <div class="columns medium-12 slide-img">
+        <ul class="slider-inner" data-orbit>
+          <li data-orbit-slide="slide1" class="the-slide">
+            <div class="columns medium-12 slide-img">
               <a href="product.html" class="slide-img-link">
                 <img src="img/slide1.png" alt="" class="slide-img">
               </a>
             </div>
-            <div class="columns medium-12 slide-texts"> 
+            <div class="columns medium-12 slide-texts">
               <h1 class="slide-title">название 1</h1>
-              <h2 class="slide-subtitle">подназвание слайдера</h2> 
-              <h3 class="slide-description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свою ты языкового мир буквенных заманивший последний выйти не то.</h3> 
+              <h2 class="slide-subtitle">подназвание слайдера</h2>
+              <h3 class="slide-description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свою ты языкового мир буквенных заманивший последний выйти не то.</h3>
               <a href="product.html" class="button radius">
                 Подробнее
               </a>
             </div>
-         </li>
+          </li>
 
-         <li data-orbit-slide="slide2" class="the-slide"> 
-          <div class="columns medium-12 slide-img">
-            <a href="product.html" class="slide-img-link">
-              <img src="img/slide2.png" alt="" class="slide-img">
-            </a>
-          </div>
-          <div class="columns medium-12 slide-texts"> 
-            <h1 class="slide-title">название 2</h1>
-            <h2 class="slide-subtitle">подназвание слайдера</h2> 
-            <h3 class="slide-description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свою ты языкового мир буквенных заманивший последний выйти не то.</h3> 
-            <a href="product.html" class="button radius">
-              Подробнее
-            </a>
-          </div>
-        </li> 
+          <li data-orbit-slide="slide2" class="the-slide">
+            <div class="columns medium-12 slide-img">
+              <a href="product.html" class="slide-img-link">
+                <img src="img/slide2.png" alt="" class="slide-img">
+              </a>
+            </div>
+            <div class="columns medium-12 slide-texts">
+              <h1 class="slide-title">название 2</h1>
+              <h2 class="slide-subtitle">подназвание слайдера</h2>
+              <h3 class="slide-description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свою ты языкового мир буквенных заманивший последний выйти не то.</h3>
+              <a href="product.html" class="button radius">
+                Подробнее
+              </a>
+            </div>
+          </li>
 
-        <li data-orbit-slide="slide3" class="the-slide">
-         <div class="columns medium-12 slide-img">
-            <a href="product.html" class="slide-img-link">
-              <img src="img/slide3.png" alt="" class="slide-img">
-            </a>
-          </div>
-          <div class="columns medium-12 slide-texts"> 
-            <h1 class="slide-title">название 3</h1>
-            <h2 class="slide-subtitle">подназвание слайдера</h2> 
-            <h3 class="slide-description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свою ты языкового мир буквенных заманивший последний выйти не то.</h3> 
-            <a href="product.html" class="button radius">
-              Подробнее
-            </a>
-          </div>
-       </li> 
-     </ul>
-   </div>
+          <li data-orbit-slide="slide3" class="the-slide">
+            <div class="columns medium-12 slide-img">
+              <a href="product.html" class="slide-img-link">
+                <img src="img/slide3.png" alt="" class="slide-img">
+              </a>
+            </div>
+            <div class="columns medium-12 slide-texts">
+              <h1 class="slide-title">название 3</h1>
+              <h2 class="slide-subtitle">подназвание слайдера</h2>
+              <h3 class="slide-description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Свою ты языкового мир буквенных заманивший последний выйти не то.</h3>
+              <a href="product.html" class="button radius">
+                Подробнее
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <!-- slider -->
   </section>
@@ -148,8 +152,8 @@
     <dl class="row categories-tabs tabs" data-tab data-equalizer>
       <dd class="columns medium-8 active" data-equalizer-watch>
         <a href="#cat1" class="">
-          <figure class="categories-tabs-fig"  style="background:url('img/tab1-img.png') center center /cover no-repeat;">
-            
+          <figure class="categories-tabs-fig" style="background:url('img/tab1-img.png') center center /cover no-repeat;">
+
           </figure>
           <h4 class="categories-tabs-tab-title">
             мужские
@@ -161,8 +165,8 @@
       </dd>
       <dd class="columns medium-8" data-equalizer-watch>
         <a href="#cat2">
-           <figure class="categories-tabs-fig" style="background:url('img/tab2-img.png') center center /cover no-repeat;">
-            
+          <figure class="categories-tabs-fig" style="background:url('img/tab2-img.png') center center /cover no-repeat;">
+
           </figure>
           <h4 class="categories-tabs-tab-title">
             женские
@@ -174,8 +178,8 @@
       </dd>
       <dd class="columns medium-8" data-equalizer-watch>
         <a href="#cat3">
-             <figure class="categories-tabs-fig" style="background:url('img/tab3-img.png') center center /cover no-repeat;">
-            
+          <figure class="categories-tabs-fig" style="background:url('img/tab3-img.png') center center /cover no-repeat;">
+
           </figure>
           <h4 class="categories-tabs-tab-title">
             детские
@@ -185,31 +189,83 @@
           </h5>
         </a>
       </dd>
-      </dl>
-    </div>
+    </dl>
   </div>
-  <div class="categories-content-wrap">
-    <div class="row categories-content">
-       <div class="columns meidum-24 tabs-content">
-        <div class="content active" id="cat1">
-          <p>First panel content goes here...</p>
-        </div>
-        <div class="columns meidum-24  content" id="cat2">
-          <p>Second panel content goes here...</p>
-        </div>
-        <div class="columns meidum-24  content" id="cat3">
-          <p>Third panel content goes here...</p>
-        </div>
-       
+</div>
+<div class="categories-content-wrap">
+  <div class="row categories-content">
+    <div class="tabs-content">
+      <div class="content clearfix active" id="cat1">
+        <article class="columns medium-6 tab-content-item">
+          <div class="tab-content-inner">
+
+          </div>
+        </article>
+        <article class="columns medium-6 tab-content-item">
+          <div class="tab-content-inner">
+
+          </div>
+        </article>
+        <article class="columns medium-6 tab-content-item">
+          <div class="tab-content-inner">
+
+          </div>
+        </article>
+        <article class="columns medium-6 tab-content-item">
+          <div class="tab-content-inner">
+
+          </div>
+        </article>
+        <article class="columns medium-6 tab-content-item">
+          <div class="tab-content-inner">
+
+          </div>
+        </article>
+        <article class="columns medium-6 tab-content-item">
+          <div class="tab-content-inner">
+
+          </div>
+        </article>
       </div>
+      <a href="#" id="cat1-prev" class="carousel_buttons">Назад</a>
+      <a href="#" id="cat1-next" class="carousel_buttons">Вперед</a>
+      <script>
+      $("#cat1").carouFredSel({
+        circular: false,
+        infinite: false,
+        auto: false,
+        prev: {
+          button: "#cat1-prev",
+          key: "left"
+        },
+        next: {
+          button: "#cat1-next",
+          key: "right"
+        }
+      });
+      </script>
+      <!-- #cat1 -->
+
+      <div class="columns content" id="cat2">
+        <article class="columns large-4 tab-content-item">
+
+        </article>
+      </div>
+      <div class="columns content" id="cat3">
+        <article class="columns large-4 tab-content-item">
+
+        </article>
+      </div>
+
     </div>
   </div>
+</div>
 
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation.min.js"></script>
-  <script>
-  $(document).foundation();
-
-  </script>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+</script>
 </body>
+
 </html>
