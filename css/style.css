@@ -89,11 +89,35 @@ figure{
 }
 .header-menu-item {
   float: left;
-  margin-right: 30px;
+  margin-left: 30px;
 }
+
+.header-menu-item:first-child{
+	margin-left: 0;
+}
+
 .header-menu-item a:hover {
   color: #000;
 }
+
+
+.input-search.input-text {
+  
+    padding-right: 20px;
+}
+
+.search-inputs-wrap{
+position: relative;
+  width: 130%;
+  top: -5px;
+}
+
+.search_submit{
+	position: absolute;
+	right: 5px;
+	top: 10px;
+}
+
 .header-menu-item.hassub:before {
   background: url("sprite.png") no-repeat scroll 0 -488px rgba(0, 0, 0, 0);
   content:"";
