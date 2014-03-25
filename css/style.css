@@ -710,3 +710,23 @@ top: 9px;
 	border-bottom: 1px solid #dcdcdc;
 	margin-bottom: 30px;
 }
+
+.main-sidebar, .main-content{
+	height: 300px;
+}
+
+.pagination-item{
+	display: inline-block;
+	background: transparent;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	padding-top: 4px;
+	width: 25px;
+	height: 25px;
+}
+
+.pagination-item:hover, .pagination-item.active{
+	background: #333;
+	color: #ccc;
+}
