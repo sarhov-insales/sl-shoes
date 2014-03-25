@@ -391,7 +391,7 @@ width: 200px;
 }
 
 .pr-block-product-title{
-	height: 40px;
+	height: 45px;
 	overflow: hidden;
 	-ms-text-overflow: ellipsis;
 	text-overflow: ellipsis;
@@ -725,7 +725,11 @@ top: 9px;
 
 .pagination-item:hover, .pagination-item.active{
 	background: #333;
-	color: #ccc;
+	color: #fff;
+}
+
+.sorting-pagination-wrap{
+	margin-bottom: 70px !important;
 }
 
 .main-sidebar{
@@ -817,4 +821,13 @@ padding-bottom: 50px;
 
 .size-values .property-value.active{
 	background-color: #333;
+}
+
+.grid-content-item{
+	height: 180px;
+	margin-bottom: 30px;
+}
+
+.grid-content-item:hover{
+	opacity: 0.8;
 }
