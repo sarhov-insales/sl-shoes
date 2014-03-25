@@ -748,8 +748,33 @@ padding-bottom: 50px;
 
 }
 
-.sidebar-collection-item-link{
+.sidebar-subcollection{
+	margin-left: 0;
+}
+
+.sidebar-collection-item-link, .property-title{
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size: 14px;
+
+}
+
+.property-title{
+	margin-bottom: 15px;
+}
+
+.property-value, .sidebar-subcollection-item-link{
+	display: block;
+	font-size: 14px;
+	padding:10px 5px 10px 20px;
+	margin-bottom: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	line-height: 1;
+}
+
+.property-value.active,.sidebar-subcollection-item-link.active, .sidebar-subcollection-item-link:hover,  .property-value:hover{
+	color: #fff;
+	background: #333;
 }
