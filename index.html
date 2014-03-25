@@ -206,9 +206,10 @@
     <div class="tabs-content">
 
       <div class="content clearfix active" id="cat1">
-        <div class="carousel1">
+        <div class="crsl-items1"  data-navigation="car1">
+        <div class="crsl-wrap carousel1">
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -225,7 +226,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -242,7 +243,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -259,7 +260,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -276,7 +277,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -293,7 +294,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -310,7 +311,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -328,38 +329,26 @@
           <!-- tab-content-item -->
 
         </div>
-        <a href="#" id="cat1-prev" class="carousel_buttons">Назад</a>
-        <a href="#" id="cat1-next" class="carousel_buttons">Вперед</a>
-        <script>
-        $(".carousel1").carouFredSel({
-          responsive: true,
-          items: {
-            width: 330,
-            visible: {
-              min: 2,
-              max: 4
-            }
-          },
-          circular: true,
-          infinite: true,
-          auto: false,
-          prev: {
-            button: "#cat1-prev",
-            key: "left"
-          },
-          next: {
-            button: "#cat1-next",
-            key: "right"
-          }
-        });
-        </script>
       </div>
+        <script>
+       jQuery(document).ready(function($) {
+         $('.crsl-items1').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 10 });
+       });
+        </script> 
+        <div id="car1" class="crsl-nav">
+        <a href="#" id="cat1-prev" class="previous carousel_buttons">Назад</a>
+        <a href="#" id="cat1-next" class="next carousel_buttons">Вперед</a>
+      </div>
+      </div> 
+    
       <!-- #cat1 -->
 
+
       <div class="content clearfix" id="cat2">
-        <div class="carousel2">
+        <div class="crsl-items2"  data-navigation="car2">
+        <div class="crsl-wrap carousel1">
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -376,7 +365,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -393,7 +382,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -410,7 +399,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -427,7 +416,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -444,7 +433,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -461,7 +450,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -479,38 +468,25 @@
           <!-- tab-content-item -->
 
         </div>
-        <a href="#" id="cat2-prev" class="carousel_buttons">Назад</a>
-        <a href="#" id="cat2-next" class="carousel_buttons">Вперед</a>
-        <script>
-        $(".carousel2").carouFredSel({
-          responsive: true,
-          items: {
-            width: 330,
-            visible: {
-              min: 2,
-              max: 4
-            }
-          },
-          circular: true,
-          infinite: true,
-          auto: false,
-          prev: {
-            button: "#cat2-prev",
-            key: "left"
-          },
-          next: {
-            button: "#cat2-next",
-            key: "right"
-          }
-        });
-        </script>
       </div>
+        <script>
+       jQuery(document).ready(function($) {
+         $('.crsl-items2').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 10 });
+       });
+        </script> 
+        <div id="car2" class="crsl-nav">
+        <a href="#" id="cat1-prev" class="previous carousel_buttons">Назад</a>
+        <a href="#" id="cat1-next" class="next carousel_buttons">Вперед</a>
+      </div>
+      </div> 
+    
       <!-- #cat2 -->
 
       <div class="content clearfix" id="cat3">
-        <div class="carousel3">
+        <div class="crsl-items3"  data-navigation="car3">
+        <div class="crsl-wrap carousel1">
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -527,7 +503,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -544,7 +520,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -561,7 +537,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -578,7 +554,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -595,7 +571,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -612,7 +588,7 @@
           </article>
           <!-- tab-content-item -->
 
-          <article class="columns left tab-content-item">
+          <article class="columns left tab-content-item crsl-item">
             <div class="tab-content-inner">
               <a href="product.html" class="pr-block-img-link">
                 <img src="img/product1.png" alt="">
@@ -630,35 +606,22 @@
           <!-- tab-content-item -->
 
         </div>
-        <a href="#" id="cat3-prev" class="carousel_buttons">Назад</a>
-        <a href="#" id="cat3-next" class="carousel_buttons">Вперед</a>
-        <script>
-        $(".carousel3").carouFredSel({
-          responsive: true,
-          items: {
-            width: 330,
-            visible: {
-              min: 2,
-              max: 4
-            }
-          },
-          circular: true,
-          infinite: true,
-          auto: false,
-          prev: {
-            button: "#cat3-prev",
-            key: "left"
-          },
-          next: {
-            button: "#cat3-next",
-            key: "right"
-          }
-        });
-        </script>
       </div>
+        <script>
+       jQuery(document).ready(function($) {
+         $('.crsl-items3').carousel({ visible: 4, itemMinWidth: 200, itemMargin: 10 });
+       });
+        </script> 
+        <div id="car3" class="crsl-nav">
+        <a href="#" id="cat1-prev" class="previous carousel_buttons">Назад</a>
+        <a href="#" id="cat1-next" class="next carousel_buttons">Вперед</a>
+      </div>
+      </div> 
+    
       <!-- #cat2 -->
 
     </div>
+    <!-- tabs-content -->
   </div>
 </section>
 
