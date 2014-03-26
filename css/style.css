@@ -125,7 +125,7 @@ figure{
 }
 .header-bottom {
   text-transform: uppercase;
-  padding-top: 15px;
+  padding-top: 16px;
 }
 .header-menu, .login-wrap {
   font-family: 'Conv_NeoSansPro-Medium';
@@ -156,7 +156,7 @@ figure{
 .search-inputs-wrap{
 position: relative;
   width: 130%;
-  top: -8px;
+  top: -9px;
 }
 
 .search_submit{
@@ -172,7 +172,7 @@ cursor: pointer;
 }
 
 .header-menu-item.hassub:before {
-  background: url("sprite.png") no-repeat scroll 0 -489px rgba(0, 0, 0, 0);
+  background: url("sprite.png") no-repeat scroll 0 -491px rgba(0, 0, 0, 0);
   content:"";
   float: right;
   height: 20px;
@@ -634,7 +634,7 @@ height: 47px;
 	text-transform: uppercase;;
 }
 
-.subscribe-text-subtitle{
+.subscripte-text-subtitle{
 	font-size: 14px;
 }
 
@@ -667,11 +667,11 @@ top: 9px;
 .foot-box-title{
 	margin-bottom: 30px;
 	text-transform: uppercase;
-	font-size: 19px;
+	font-size: 18px;
 }
 
 .foot-nav-link-item{
-	font-size: 15px;
+	font-size: 14px;
 	display: block;
 	margin-bottom: 7px;
 }
@@ -720,7 +720,7 @@ top: 9px;
 
 
 .site-copy{
-	font-size: 13px;
+	font-size: 14px;
 	text-align: right;
 }
 
@@ -877,4 +877,22 @@ padding-bottom: 50px;
 
 .grid-content-item:hover{
 	opacity: 0.8;
+}
+
+.item-title{
+	text-transform: uppercase;
+	font-size: 33px;
+	margin-bottom: 25px;
+}
+
+.item-description{
+	font-size: 14px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+.item-size-text,.item-size-table-text{
+	text-transform: uppercase;
+	font-size: 13px;
+	font-family: 'Conv_NeoSansPro-Medium';
 }
